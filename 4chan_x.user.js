@@ -6922,6 +6922,6 @@ div.opContainer {\
 '
   };
 
-  Main.init();
+    window.setTimeout(function(){Main.init()},1000);
 
 }).call(this);
